@@ -1,6 +1,5 @@
 import { FC } from 'react'
 import Heading from './Heading'
-import { postType } from '../types'
 
 const PostInfo = ({ post }) => {
 	const { title, body } = post || {}
