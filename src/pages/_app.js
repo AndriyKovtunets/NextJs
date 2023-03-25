@@ -6,7 +6,7 @@ import Image from 'next/image'
 import manicure from '/public/manicure.jpg'
 import '@/styles/globals.scss'
 
-const MyApp = ({ Component, pageProps }: AppProps) => (
+const MyApp = ({ Component, pageProps }) => (
 	<Layout>
 		<main>
 			<Component {...pageProps} />
